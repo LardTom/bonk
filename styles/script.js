@@ -1,4 +1,4 @@
-const audio = new Audio('media/bonk meme.mp3');
+const audio = new Audio('media/Bonk meme.mp3');
 let count = 0;
 function playbonk(){
     document.getElementById("before").classList.add("hidden");
