@@ -1,5 +1,11 @@
 $mainColor: white;
 $secondaryColor: black;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: $secondaryColor;
     color: $secondaryColor;
