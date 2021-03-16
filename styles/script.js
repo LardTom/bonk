@@ -11,6 +11,7 @@ function playbonk(){
         audio.play();
         count ++;
         document.getElementById("count").innerHTML = `Your Bonkcount: ${count}`;
+        document.title = `Bonk ${count}`
         isbonk = true;
         setTimeout(() => {
             reset();
